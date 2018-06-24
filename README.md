@@ -15,7 +15,7 @@ A recent build history is displayed underneath each build definition.
 
 ### Notifications
 
-Build changes are polled at a configurable interval and display tray notifications (tooltip or Toast notifications in Windows 10) when a build starts, stops, fails or succeeds. If required, the application can be also configured to only display a notification if a build fails.
+Build changes are polled at a configurable interval and display tray notifications (or Toast notifications in Windows 10) when a build starts, stops, fails or succeeds. If required, the application can be also configured to only display a notification if a build fails.
 
 ![Build started](/docs/images/build-started.png)
 
@@ -23,9 +23,9 @@ Build changes are polled at a configurable interval and display tray notificatio
 
 ![Build succeeded](/docs/images/build-passed.png)
 
-### Notifications TTS (text to speech)
+### Notification TTS (text to speech)
 
-In addition to the existing notification you can activate a voice output by setting TextToSpeech.Enabled to true in app.config
+In addition to existing notifications you can activate voice output by setting TextToSpeech.Enabled to true in the app.config file.
 
 ### Application
 
